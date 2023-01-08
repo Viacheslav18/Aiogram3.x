@@ -23,7 +23,7 @@ async def with_puree(message: types.Message):
 @dp.message(Text(text='🎁Получити бонус'))
 async def with_puree(message: types.Message):
 
-    GitHub_link = hlink('📁GitHub', 'https://github.com/Viacheslav18/Aiogram3.x')
+    GitHub_link = hlink('📁GitHub', 'https://github.com/Viacheslav18/Aiogram3.x/blob/main/1/main.py')
     Lessons_link = hlink('📚Навчальний матеріал, що допомагає створити свого бота', 'https://mastergroosha.github.io/aiogram-3-guide/')
     await message.answer(f"""
 🎁У якості бонусу ви можете переглянути код цього бота в відкритому доступі на GitHub або створити свій власний бот з нуля, використовуючи навчальний матеріал.\n
@@ -87,7 +87,7 @@ async def language_code_info(message: types.Message):
 @dp.message(Text(text="❓Питання/Відповідь"))
 async def admin_help(message: types.Message):
 
-    GitHub_link = hlink('GitHub', 'https://github.com/Viacheslav18/Aiogram3.x')
+    GitHub_link = hlink('GitHub', 'https://github.com/Viacheslav18/Aiogram3.x/blob/main/1/main.py')
 
     answers = (f"""
 <b>Питання:</b> Що вміє ваш бот і для чого він взагалі?
