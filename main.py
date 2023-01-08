@@ -87,7 +87,7 @@ async def language_code_info(message: types.Message):
 @dp.message(Text(text="❓Питання/Відповідь"))
 async def admin_help(message: types.Message):
 
-    GitHub_link = hlink('GitHub', 'https://github.com/Viacheslav18/Aiogram3.x')
+    GitHub_link = hlink('GitHub', 'https://github.com/Viacheslav18/Aiogram3.x/blob/main/main.py')
 
     answers = (f"""
 <b>Питання:</b> Що вміє ваш бот і для чого він взагалі?
