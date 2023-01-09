@@ -6,7 +6,7 @@ from aiogram.utils.markdown import hlink
 from keyboard import *
 from quiz import *
 
-API_TOKEN = "5942246856:AAGGFOERdDAlaXq9P4FRk6F24N7dqk3a5Q8"
+API_TOKEN = "your bot token here"
 
 logging.basicConfig(level=logging.INFO)
 
