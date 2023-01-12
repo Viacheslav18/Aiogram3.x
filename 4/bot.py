@@ -6,7 +6,7 @@ from handlers import questions, different_types
 logging.basicConfig(level=logging.INFO)
 
 async def main():
-    bot = Bot(token='5942246856:AAGGFOERdDAlaXq9P4FRk6F24N7dqk3a5Q8', parse_mode='HTML')
+    bot = Bot(token='your bot token here', parse_mode='HTML')
     dp = Dispatcher()
 
     dp.include_router(questions.router)
