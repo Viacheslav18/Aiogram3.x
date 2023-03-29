@@ -6,7 +6,7 @@ from handlers import router_start, router_inline
 logging.basicConfig(level=logging.INFO)
 
 async def main():
-    bot = Bot(token='5972749418:AAHruAQ_dn42rzHR_2n4iMtY6MOAubzPK1g', parse_mode='HTML')
+    bot = Bot(token='@BotFather token', parse_mode='HTML')
     dp = Dispatcher()
 
     dp.include_router(router_start.router)
